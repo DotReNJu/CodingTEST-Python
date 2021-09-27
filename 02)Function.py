@@ -8,3 +8,9 @@ def add():
 #이 아래에서 add함수를 사용해 보세요.
 
 add()
+
+def add2(a,b):
+    result = a + b
+    print(result)
+
+add2(2,3)
