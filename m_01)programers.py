@@ -14,9 +14,8 @@ s	return
 """
 #풀이
 str1 = "Zbcdefg"
+
 def solution(s):
-    #answer = sorted(s) 
-    #answer= s.sort(reverse=True)
     answer = "".join(sorted(s,reverse=True))
     return answer
 print(solution(str1))
