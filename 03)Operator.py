@@ -26,10 +26,10 @@ else:
 
 
 #Bitwise 연산자
-a=8
-b=11
-c=a&b
-d=a^b
+a=8     #
+b=11    #
+c=a&b   #
+d=a^b   #
 
 print(c)
 print(d)

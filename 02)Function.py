@@ -10,7 +10,7 @@ def add():
 add()
 
 def add2(a,b):
+    #전역변수와 같은명의 변수명을 함수
     result = a + b
     print(result)
-
 add2(2,3)
