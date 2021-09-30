@@ -12,7 +12,7 @@ str은 길이 1 이상인 문자열입니다.
 s	return
 "Zbcdefg"	"gfedcbZ"
 """
-#풀이
+#문제풀기
 str1 = "Zbcdefg"
 
 def solution(s):
