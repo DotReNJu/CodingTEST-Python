@@ -16,8 +16,14 @@ s	return
 def solution(s):
     #answer = sorted(s) 
     #answer= s.sort(reverse=True)
+
+
     answer = "".join(sorted(s,reverse=True))
     return answer
 
 print(solution("Zbcdefg"))
 
+
+
+#다른사람 풀이
+#https://programmers.co.kr/learn/courses/30/lessons/12917/solution_groups?language=python
