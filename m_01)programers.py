@@ -13,10 +13,22 @@ s	return
 "Zbcdefg"	"gfedcbZ"
 """
 #풀이
+str1 = "Zbcdefg"
 def solution(s):
     #answer = sorted(s) 
     #answer= s.sort(reverse=True)
     answer = "".join(sorted(s,reverse=True))
     return answer
-print(solution("Zbcdefg"))
+print(solution(str1))
 
+def solution2(s):
+    s1 = sorted(s)
+    s1 = reversed(s1)
+    s1 = "".join(s1)
+    answer = s1
+    return answer
+
+if solution(str1)==solution2(str1):
+    print("Yes")
+else:
+    print("No")
