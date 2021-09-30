@@ -14,7 +14,6 @@ s	return
 
 #풀이
 def solution(s):
-    
     #answer = sorted(s) 
     #answer= s.sort(reverse=True)
     answer = "".join(sorted(s,reverse=True))
