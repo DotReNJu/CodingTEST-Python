@@ -1,7 +1,12 @@
-print('my first coding test')
-
+#참고 https://yaraba.tistory.com/1225
 
 a=[3,'b','aaa']
 
 a.append('hello')
 print(a)
+
+b=(1,"aa",[3,4,5],6,7)
+
+print(a*10)
+
+a.pop()
