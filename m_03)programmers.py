@@ -13,3 +13,6 @@ def solution(left, right):
         else:
             answer=answer-i
     return answer
+
+print(solution(3,6))
+
