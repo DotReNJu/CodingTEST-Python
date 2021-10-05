@@ -1,4 +1,6 @@
 #python code
+#약수의 개수 및 덧셈
+
 def solution(left, right):
     answer=0
     arr=[]
