@@ -14,3 +14,5 @@ print(a)
 
 print(len(a))
 
+print("".join(a))
+
