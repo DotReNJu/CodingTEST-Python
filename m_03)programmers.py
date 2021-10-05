@@ -13,5 +13,3 @@ def solution(left, right):
             answer=answer-i
     return answer
 
-print(solution(3,6))
-
