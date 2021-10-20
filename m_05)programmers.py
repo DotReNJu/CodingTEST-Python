@@ -51,3 +51,4 @@ def solution2(strings, n):
     return answer
 
 solution(testcase)
+solution2(testcase)
