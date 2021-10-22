@@ -2,7 +2,7 @@
 #n번째 문자를 기준으로 정렬.
 #기본적으로 오름차순 정렬.
 
-testcase=[[
+testcase=[
     "sua",
     "bed",
     "car",
@@ -24,9 +24,8 @@ testcase=[[
     "suo",
     "sup",
     "aug",
-    "but"],
-    1]
-
+    "but"]
+testn=1
 def solution(strings, n):
     answer = []
     strings=sorted(strings)
@@ -50,5 +49,5 @@ def solution2(strings, n):
     print(answer)
     return answer
 
-solution(testcase)
-solution2(testcase)
+solution(testcase,testn)
+solution2(testcase,testn)
