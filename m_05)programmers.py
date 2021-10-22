@@ -38,6 +38,7 @@ def solution(strings, n):
                 strings[s1]=strings[s2]
                 strings[s2]=tmp
                 tmp=''
+                
                 print(strings)
     answer=strings
 
