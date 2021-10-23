@@ -26,7 +26,14 @@ testcase=[
     "aug",
     "but"]
 testn=1
-def solution(strings, n):
+
+
+def solution2(strings, n):
+    answer = sorted(sorted(strings),key=lambda x:x[n])
+    print(answer)
+    return answer
+
+def notsolution3(strings, n):
     answer = []
     strings=sorted(strings)
     tmp='';
@@ -34,21 +41,18 @@ def solution(strings, n):
     for s1 in range(len(strings)-1):
         for s2 in range(s1+1,len(strings)):
             if strings[s1][n]>strings[s2][n]:
+                print("전",strings)
                 tmp=strings[s1]
                 strings[s1]=strings[s2]
                 strings[s2]=tmp
                 tmp=''
-                
-                print(strings)
+                print("후",strings)
+                continue
     answer=strings
 
     print(answer)
     return answer
 
-def solution2(strings, n):
-    answer = sorted(sorted(strings),key=lambda x:x[n])
-    print(answer)
-    return answer
 
-solution(testcase,testn)
 solution2(testcase,testn)
+#notsolution3(testcase,testn)
