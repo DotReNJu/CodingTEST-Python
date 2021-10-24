@@ -27,6 +27,15 @@ testcase=[
     "but"]
 testn=1
 
+def solution(strings, n):
+    answer=[]
+    for t in range(len(strings)):
+        strings[t] = strings[t][n]+strings[t]
+    strings.sort()
+
+    for t in range(len(strings)):
+        answer.append(strings[t][1:])
+    return answer
 
 def solution2(strings, n):
     answer = sorted(sorted(strings),key=lambda x:x[n])
