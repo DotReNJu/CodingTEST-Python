@@ -33,6 +33,7 @@ def solution(strings, n):
         strings[t] = strings[t][n]+strings[t]
     strings.sort()
 
+    print(strings)
     for t in range(len(strings)):
         answer.append(strings[t][1:])
     return answer
