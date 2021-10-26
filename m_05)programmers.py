@@ -33,9 +33,11 @@ def solution(strings, n):
         strings[t] = strings[t][n]+strings[t]
     strings.sort()
 
-    print(strings)
     for t in range(len(strings)):
         answer.append(strings[t][1:])
+    strings=answer
+    print(strings)
+    print(answer)
     return answer
 
 def solution2(strings, n):
@@ -65,4 +67,27 @@ def notsolution3(strings, n):
 
 solution(testcase,testn)
 solution2(testcase,testn)
+
+
+
+
+isChange=[1,2,3,4,5]
+def ChangeIt(go):
+    go.sort(reverse=True)
+    go.append(go[0])
+    go.sort(key=lambda x:x*-1)
+
+ChangeIt(isChange)
+print(isChange)
+
+
+
+
+
+
+
+
+
+
+
 #notsolution3(testcase,testn)
