@@ -63,6 +63,6 @@ def notsolution3(strings, n):
     print(answer)
     return answer
 
-
+solution(testcase,testn)
 solution2(testcase,testn)
 #notsolution3(testcase,testn)
