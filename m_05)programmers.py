@@ -77,6 +77,7 @@ def ChangeIt(go):
     go.append(go[0])
     go.sort(key=lambda x:x*-1)
     go.sort(key=lambda x:(x-3)*(-1))
+    go.pop(len(go)-1)
 
 ChangeIt(isChange)
 print(isChange)
