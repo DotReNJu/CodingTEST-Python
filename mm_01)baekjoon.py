@@ -20,7 +20,7 @@ def solution():
                 yesno="NO"
                 break
     if yesno=="NO" or stack:
-        print(yesno)
+        print("NO")
     else :
         print("YES")
     return 0
