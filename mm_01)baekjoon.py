@@ -1,3 +1,10 @@
+'''
+https://www.acmicpc.net/problem/9012 / 스택
+https://www.acmicpc.net/problem/4949 / 스택
+https://www.acmicpc.net/problem/2161 / 큐
+https://programmers.co.kr/learn/courses/30/lessons/42584 / 스택 심화
+
+'''
 def solution():
     stack=[]
     yesno="YES"
